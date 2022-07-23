@@ -18,7 +18,7 @@ const products = [
     },
     {
         id: 3,
-        name: 'Focus Paper Refill',
+        name: 'Diary Milk',
         href: '#',
         price: '$89',
         imageSrc: '../../imge2.jpg',
@@ -26,7 +26,7 @@ const products = [
     },
     {
         id: 4,
-        name: 'Machined Mechanical Pencil',
+        name: 'Bingo wrpaper',
         href: '#',
         price: '$35',
         imageSrc: '../../imge1.jpg',
@@ -34,7 +34,7 @@ const products = [
     },
     {
         id: 5,
-        name: 'Machined Mechanical Pencil',
+        name: 'Bingo wrpaper',
         href: '#',
         price: '$35',
         imageSrc: '../../imge1.jpg',
@@ -42,7 +42,7 @@ const products = [
     },
     {
         id: 6,
-        name: 'Machined Mechanical Pencil',
+        name: 'Bingo wrpaper',
         href: '#',
         price: '$35',
         imageSrc: '../../imge1.jpg',
@@ -50,7 +50,7 @@ const products = [
     },
     {
         id: 7,
-        name: 'Machined Mechanical Pencil',
+        name: 'Bingo wrpaper',
         href: '#',
         price: '$35',
         imageSrc: '../../imge1.jpg',
