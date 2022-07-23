@@ -31,12 +31,11 @@ export default function Contactus() {
         {
           setSuccessMsg("");
           window.location.reload(true);
-          
         },4000)
         
       }
       ).catch((error)=>{
-        setErrorMsg("error")
+        setErrorMsg("sorry some error occured")
       })}
     }
   return (
@@ -52,8 +51,8 @@ export default function Contactus() {
                 <label htmlFor="email-address" className="sr-only">
                   Email address
                 </label>
-                <h1 className='text-center text-red-400'>{successMsg}</h1>
-                <h1>{errorMsg}</h1>
+                {successMsg&&<><button className='bg-teal-500 rounded-xl w-full mb-4  text-center h-7 text-white'>{successMsg}</button></>}
+                {errorMsg&&<><button className='bg-teal-500 rounded-xl w-full mb-4  text-center h-7 text-white'>{errorMsg}</button></>}
                 
                 <input
                   onChange={(e)=> setName(e.target.value)}
@@ -92,7 +91,7 @@ export default function Contactus() {
 
                 <input
                   onChange={(e)=> setCommnet(e.target.value)}
-                  type="text"
+                  type="text-box"
                   autoComplete="current-password"
                   required
                   className="appearance-none rounded-xl relative block
